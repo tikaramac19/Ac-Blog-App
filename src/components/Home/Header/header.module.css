@@ -1,0 +1,21 @@
+.home_header{
+    text-align: center;
+}
+.home_header h2{
+    margin-top: 1rem;
+    color: rgb(200, 196, 196);
+    font-size: 2rem;
+}
+.home_header h1{
+    font-size: 3rem;
+    color: #315fa5;
+    margin: 1rem 0rem;
+}
+.home_header h1 span{
+    color: #b0c4de;
+}
+.home_header p{
+    color: #a9a9a9;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
