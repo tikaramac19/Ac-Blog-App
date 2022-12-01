@@ -4,7 +4,7 @@ import styles from "./SearchBar.module.css";
 const SearchBar = ({ value, handelSearchKey, formSubmit, clearSearch }) => {
   return (
     <div className={styles.searchbar}>
-      <form action="#" onSubmit={formSubmit}>
+      <form onSubmit={formSubmit}>
         <input
           type="text"
           onChange={handelSearchKey}
