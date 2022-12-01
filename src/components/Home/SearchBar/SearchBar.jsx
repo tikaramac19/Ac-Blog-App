@@ -11,7 +11,7 @@ const SearchBar = ({ value, handelSearchKey, formSubmit, clearSearch }) => {
           placeholder="Search By Category "
           value={value}
         />
-        {value && <span onClick={clearSearch}>X</span>}
+        {value && <span onClick={clearSearch} className ={styles.exit}>X</span>}
 
         <button>Go</button>
       </form>

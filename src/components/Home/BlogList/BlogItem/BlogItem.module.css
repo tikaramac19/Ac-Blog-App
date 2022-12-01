@@ -21,9 +21,9 @@
     position: relative;
     max-height: 50px;
     overflow: hidden;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding-right: 0.6rem;
-    color: #a9a9a9;
+    color: #d3d3d3;
 }
 .blog_description::before{
     position: absolute;
@@ -41,9 +41,16 @@ footer{
 }
 .blog_link{
     text-decoration: none;
+    color: white;
 }
 .blogItem_author{
     display: flex;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.icon:hover{
+    background: rgb(9, 177, 168);
 }
 .blogItem_author > img{
         width: 45px;
@@ -52,8 +59,12 @@ footer{
         object-fit: cover;
         margin-right: 0.5rem;
 }
-.blogItem_author h6{
-    font-size: 0.7rem;
-    color: #a9a9a9;
+.blogItem_author h4{
+    /* font-size: 0.8rem; */
+    color: rgb(9, 177, 168);
     font-weight: bold;
+}
+.blogItem_author  p{
+    color: white;
+    font-weight: 1rem;
 }

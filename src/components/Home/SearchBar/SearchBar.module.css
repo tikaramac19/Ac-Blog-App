@@ -23,6 +23,9 @@
     cursor: pointer;
     color: crimson;
 }
+.exit{
+    color: aqua;
+}
 .searchbar button{
     border: none;
     outline: none;

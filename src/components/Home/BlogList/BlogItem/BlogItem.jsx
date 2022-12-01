@@ -26,13 +26,13 @@ const BlogItem = ({ blog }) => {
           <div className={styles.blogItem_author}>
             <img src={authorAvatar} alt="authorImg" />
             <div>
-              <h6>{authorName}</h6>
+              <h4>{authorName}</h4>
               <p>{createdAt}</p>
             </div>
           </div>
           <Link to={`/blog/${id}`} className={styles.blog_link}>
             
-            <BsFillArrowRightSquareFill />
+          <BsFillArrowRightSquareFill className={styles.icon}/>
           </Link>
         </footer>
       </div>
