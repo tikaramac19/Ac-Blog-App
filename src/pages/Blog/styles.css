@@ -1,0 +1,59 @@
+.blog-container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.go-back{
+    text-decoration: none;
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: block;
+    align-items: center;
+    display: flex;
+
+}
+.go-back:hover{
+    color: rgb(83, 197, 12);
+    transition: all 0.3s ease;
+}
+.goBack-icon{
+    color: blueviolet;
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
+}
+.blog-wrap header{
+    text-align: center;
+}
+.blog-date{
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.blog-wrap img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.blog-wrap header h1{
+    color: rgb(9, 177, 168);
+}
+.sub-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+.sub-category > div{
+    margin: 0rem 1rem;
+}
+.chip{
+    padding: 0.4rem 1rem;
+    font-weight: bold;
+}
+.blog-description{
+    margin-top: 1rem;
+    color: rgb(190, 206, 206);
+    font-size: 1.1rem;
+}
